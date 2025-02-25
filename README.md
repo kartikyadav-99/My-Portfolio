@@ -3,7 +3,7 @@
 A personal portfolio website built using ReactJS to showcase projects, skills, and contact details.
 
 ## Live Demo
-[Your Website URL](https://yourwebsite.com) *(Replace with your actual link)*
+[Your Website URL](https://codewithkartik.vercel.app/)
 
 ## Features
 - **Responsive Design**: Fully optimized for all screen sizes.
@@ -20,7 +20,7 @@ A personal portfolio website built using ReactJS to showcase projects, skills, a
 
 1. **Clone the Repository:**
 ```bash
-git clone https://github.com/yourusername/your-portfolio.git
+git clone https://github.com/kartikyadav-99/My-Portfolio.git
 ```
 
 2. **Navigate to the Project Directory:**
@@ -47,7 +47,7 @@ npm install gh-pages --save-dev
 ```
 2. Add the following scripts to `package.json`:
 ```json
-"homepage": "https://yourusername.github.io/your-portfolio",
+"homepage": "https://github.com/kartikyadav-99/My-Portfolio.git",
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
@@ -75,6 +75,6 @@ If you'd like to improve this project, feel free to fork the repository and subm
 This project is licensed under the MIT License.
 
 ## Contact
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your Profile](https://linkedin.com/in/yourprofile)
-- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
+- **Email**: kartiky211099@gmail.com
+- **LinkedIn**: [Your Profile](https://www.linkedin.com/in/kartik-yadav-5648ba230/)
+
