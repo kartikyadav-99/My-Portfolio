@@ -7,10 +7,10 @@ const Hero = () => {
   return (
     <section>
         <div className="flex flex-col items-center justify-center">
-            <h1 className="mt-16 mr-50 overflow-hidden text-[8vw] font-semibold uppercase  leading-none">
+            <h1 className="mt-16 mr-15 overflow-hidden text-[8vw] font-semibold uppercase  leading-none">
                 Kartik
             </h1>
-            <h1 className="overflow-hidden ml-50 text-[12vw] text-amber-100 font-semibold uppercase leading-none">
+            <h1 className="overflow-hidden ml-20 text-[12vw] text-amber-50 font-semibold uppercase leading-none">
                  Yadav
             </h1>
 
@@ -24,7 +24,7 @@ const Hero = () => {
             </div>
 
             <div className="w-full">
-                <img src={Kartik} alt="Kartik Yadav" className="mt-5 h-110 w-full object-cover"/>
+                <img src={Kartik} alt="Kartik Yadav" className="mt-4 h-92 w-full object-cover"/>
             </div>
 
         </div>
