@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section>
         <div className="flex flex-col items-center justify-center">
-            <h1 className="mt-16 mr-15 overflow-hidden text-[8vw] font-semibold uppercase  leading-none">
+            <h1 className="mt-16 mr-17 overflow-hidden text-[8vw] font-semibold uppercase  leading-none">
                 Kartik
             </h1>
             <h1 className="overflow-hidden ml-20 text-[12vw] text-amber-50 font-semibold uppercase leading-none">
