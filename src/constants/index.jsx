@@ -11,6 +11,7 @@ import project1 from "../assets/project1.avif";
 import project2 from "../assets/project2.avif";
 import project3 from "../assets/project3.jpg";
 import project4 from "../assets/project4.avif";
+import project5 from "../assets/project5.avif";
 
 export const LINKS = [
   { id: "projects", name: "projects" },
@@ -23,6 +24,7 @@ export const MARQUEE_TEXT =
   " React, Next.js, Node, MongoDb, Tailwind, MySql, Javascript, ";
 
 export const PROJECTS = [
+
   {
     id: 1,
     title: "Weather App",
@@ -37,7 +39,7 @@ export const PROJECTS = [
     description:
       "A React Search Book App allows users to search for books by title, author, or keywords.",
     imgSrc: project2,
-    link: "https://showmethebook.vercel.app/",
+    link: "https://my-search-book-app.vercel.app/",
   },
   {
     id: 3,
@@ -54,6 +56,14 @@ export const PROJECTS = [
       "A React Meme Generator App is a simple web application that allows users to create custom memes ",
     imgSrc: project4,
     link: "https://memengine.netlify.app/",
+  },
+  {
+    id: 5,
+    title: "WhatsApp like Chat App",
+    description:
+      "Created a WhatsApp-like chat app using ReactJS, React Router, Material UI, and Firebase. Added real-time messaging with Firebase Firestore and login system using Firebase Authentication.",
+    imgSrc: project5,
+    link: "https://feel-like-whats-app-app.vercel.app/",
   },
 
 ];
