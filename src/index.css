@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap')
 layer(base);
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap');
 
 
 @import 'tailwindcss';
@@ -30,3 +31,4 @@ layer(base);
     background: #000000;
     scroll-behavior: smooth;
 }
+

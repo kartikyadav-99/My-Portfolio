@@ -7,11 +7,11 @@ import {
   FaInstagram,
 } from "react-icons/fa6";
 
-import project1 from "../assets/project1.avif";
-import project2 from "../assets/project2.avif";
-import project3 from "../assets/project3.jpg";
-import project4 from "../assets/project4.avif";
-import project5 from "../assets/project5.avif";
+import project1 from "../assets/amazon.png";
+import project2 from "../assets/books.png";
+import project3 from "../assets/tinder.png";
+import project4 from "../assets/wheather.png";
+import project5 from "../assets/whatapp.png";
 
 export const LINKS = [
   { id: "projects", name: "projects" },
@@ -27,35 +27,35 @@ export const PROJECTS = [
 
   {
     id: 1,
-    title: "Weather App",
+    title: "Amazon Clone",
     description:
-      "A React Weather App is a web application that fetches real-time weather data using APIs like OpenWeatherMap or WeatherAPI.",
+      "Created a Amazon-Clone app using ReactJS, React Router, Material UI, and Firebase. Added real-time messaging with Firebase Firestore and login system using Firebase Authentication",
     imgSrc: project1,
-    link: "https://weatheryoulikeit.netlify.app/",
+    link: "https://amazon-clone-nu-lime.vercel.app/",
   },
   {
     id: 2,
     title: "Book Search App",
     description:
-      "A React Search Book App allows users to search for books by title, author, or keywords.",
+      "A simple React app that lets users search for books by title, author, or keyword using an external API. Built with Axios for fetching data, it displays book details such as title, author, description, and responsive UI",
     imgSrc: project2,
     link: "https://my-search-book-app.vercel.app/",
   },
   {
     id: 3,
-    title: "Movie Search App",
+    title: "Tinder Clone",
     description:
-      "A React Movie Search App is a web application that allows users to search for movies by title and posters.",
+      "Created a Tinder clone app using ReactJS, React Router, Material UI, and Firebase. Added real-time messaging with Firebase Firestore and login system using Firebase Authentication",
     imgSrc: project3,
-    link: "https://search-moviefy.netlify.app/",
+    link: "https://tinder-clone-9aba6.web.app/",
   },
   {
     id: 4,
-    title: "Meme Generator App",
+    title: "Wheather App",
     description:
-      "A React Meme Generator App is a simple web application that allows users to create custom memes ",
+      "This is a simple React weather app that shows live weather updates. I used Axios to fetch data from an API and display details like temperature, weather condition, and location in a neat interface.",
     imgSrc: project4,
-    link: "https://memengine.netlify.app/",
+    link: "https://weatheryoulikeit.netlify.app/",
   },
   {
     id: 5,
@@ -69,15 +69,25 @@ export const PROJECTS = [
 ];
 
 export const ABOUT =
-  "As a dedicated Frontend React Developer, I specialize in creating dynamic and responsive web applications that provide seamless user experiences. With a strong foundation in front-end and technologies, I excel in building robust and scalable solutions. My expertise includes working with JavaScript frameworks such as React and Node.js, as well as proficiency in databases like MongoDB and SQL. I am passionate about continuous learning and keeping up-to-date with the latest industry trends, which allows me to implement modern practices and tools in my projects.";
+  "I am a passionate frontend React developer, eager to create modern and responsive web applications. I love turning ideas into user-friendly interfaces and learning new technologies. I am detail-oriented, motivated, and always looking to grow as a developer while contributing to meaningful projects";
+
+export const EDUCATIONS = [
+  {
+    company: "B.Tech in Computer Science & Engineering",
+    role: "Chameli Devi Group of Institutions, Indore, India",
+    year: "8/2021 - 6/2025",
+    description:
+      "I have Completed my B.Tech in CSE, where I built strong foundations in programming, web development, and modern frontend technologies",
+  },
+]
 
 export const EXPERIENCES = [
   {
     company: "Fresher",
-    role: "Frontend Developer",
-    year: "1/2025 - 6/2025",
+    role: "Frontend React Developer",
+    year: "Present",
     description:
-      "Implemented user interfaces for web applications using React and Redux. Worked closely with designers to ensure seamless user experiences. Optimized components for maximum performance across a vast array of web-capable devices and browsers. Participated in code reviews and provided feedback to maintain high code quality.",
+      "I am a passionate frontend developer with hands-on experience in building responsive and modern web applications using ReactJS, HTML, CSS, and JavaScript. I love turning ideas into user-friendly interfaces and learning new technologies to make my projects better. As a fresher, I am eager to contribute my skills, improve continuously, and grow in real-world web development projects.",
   },
 ];
 
@@ -109,7 +119,7 @@ export const SOCIAL_MEDIA_LINKS = [
 ];
 
 export const CONTACT = {
-  text: "I am always excited to collaborate on new and challenging projects. Whether you have a specific project in mind or just want to explore potential opportunities, Id love to hear from you. Lets combine our skills and expertise to create something amazing. Feel free to reach out to discuss how we can work together to achieve your goals.",
+  text: "I am always excited to collaborate on new and challenging projects. Whether you have a specific project in mind or just want to explore potential opportunities, Feel free to reach out to discuss how we can work together to achieve your goals.",
   email: "kartiky211099@gmail.com",
   phone: "+(91 - 9109083047)",
 };
