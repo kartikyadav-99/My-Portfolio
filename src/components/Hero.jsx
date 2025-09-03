@@ -1,7 +1,7 @@
 //import React from 'react'
 
 import { LuImport } from "react-icons/lu";
-import Kartik from "../assets/hero.avif";
+import HeroImage from "../assets/hero.avif";
 
 const Hero = () => {
   return (
@@ -48,7 +48,7 @@ const Hero = () => {
 
         <div className="w-full">
           <img
-            src={Kartik}
+            src={HeroImage}
             alt="Kartik Yadav"
             className="mt-4 h-92 w-full object-cover"
           />
